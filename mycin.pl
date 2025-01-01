@@ -7,7 +7,7 @@
 % Exemple d'utilisation
 diagnostics :-
     diagnostic(Maladie),
-    write('Vous etes diagnostique avec: '), write(Maladie),nl,
+    write('Vous etes diagnostique avec la maladie'), write(Maladie),nl,
 	traitement(Maladie),
 	write('Vous devez consulter votre medecin').
 
