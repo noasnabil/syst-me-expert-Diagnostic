@@ -10,6 +10,7 @@ diagnostics :-
     write('Vous etes diagnostique avec la maladie'), write(Maladie),nl,
 	traitement(Maladie),
 	write('Vous devez consulter votre medecin').
+dsds:
 
 % Règles pour diagnostiquer la maladie en fonction des symptômes
 diagnostic(grippe) :-
@@ -51,7 +52,6 @@ diagnostic(appendicite) :-
 	verify(douleurs),
     verify(constipation),
 	verify(nausees),!.
-
 diagnostic(migraine) :-
     verify(maux_de_tete),
     verify(sensibilite_lumiere),
