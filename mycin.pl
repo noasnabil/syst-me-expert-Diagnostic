@@ -99,7 +99,7 @@ traitement(grippe):-
     write('la prise d antipyrétiques en cas de fièvre.'),nl,
 	write('la prise du paracétamol est privilégié.'), nl,
 	write('En cas de contre-indication, prise d anti-inflammatoires non stéroïdiens (ibuprofène) ou aspirine.'),nl, 
-	write('Utiliser de préférence un seul type de médicament.'), nl.
+	write('Utiliser de préféce un seul type de médicament.'), nl.
 traitement(bronchiolite_virale):-
     write('Ce qui est conseillé : '),nl,
     write('Chez l enfant hospitalisé, une oxygénothérapie à 30 à 40% d oxygène apportés par canule nasale'),nl,
